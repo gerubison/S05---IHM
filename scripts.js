@@ -32,7 +32,7 @@ function reservarArmario() {
   let armarioSorteado = armariosDisponiveis[Math.floor(Math.random() * armariosDisponiveis.length)];
   
   // Obter a data e hora do momento da reserva
-  let dataReserva = new Date();
+  let dataReserva = new Date(); 
   
   // Calcular a data e hora de entrega das chaves (prazo de 24 horas)
   let dataEntrega = new Date(dataReserva);
@@ -59,4 +59,6 @@ function reservarArmario() {
 
   console.log(usuario);
   console.log(armarios);
+
+  // ta dificil
 }
